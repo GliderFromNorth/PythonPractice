@@ -1,0 +1,18 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the solve function below.
+def solve(meal_cost, tip_percent, tax_percent):
+    meal_cost = float(meal_cost)
+    tip_percent = int(tip_percent)
+    tax_percent = int(tax_percent)
+    totalCost = round(meal_cost+(meal_cost*tip_percent/100)+(meal_cost*tax_percent/100))
+    return str(totalCost)
+
+
+print(solve(float(input()), int(input()), int(input())))

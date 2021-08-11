@@ -1,0 +1,98 @@
+1) always look for corner cases in your programe; try to solve it first. 
+def get_word(sentence, n):
+<<<<<<< HEAD
+    # Only proceed if n is positive 
+    if n > 0:
+        words = sentence.split()
+        # Only proceed if n is not more than the number of words 
+        if n <= len(words):
+          return words[n-1]
+        #return ""
+    return ""
+=======
+	# Only proceed if n is positive 
+	if n > 0:
+		words = sentence.split()
+		# Only proceed if n is not more than the number of words 
+		if n <= len(words):
+		  return words[n-1]
+		#return ""
+	return ""
+>>>>>>> 1268a8cfed980e82edf282889b331911bd8f119f
+
+print(get_word("This is a lesson about lists", 4)) # Should print: lesson
+print(get_word("This is a lesson about lists", -4)) # Nothing
+print(get_word("Now we are cooking!", 1)) # Should print: Now
+print(get_word("Now we are cooking!", 5)) # Nothing
+
+<<<<<<< HEAD
+1) Introduction:
+hello all, welcome to this session which is about how to code smartly.
+in this video, we'll work on how to improve your skills to write better code
+with day to day practice.
+this video is intended for the audience who has just begun their journey in
+programming.
+
+2) what we'll learn and why? 
+
+As a newbie, you must be facing some performance sickness.
+with so many other doubts like:
+whether you are writing a good program or not?
+is your code proper
+am I using too many lines of code? ec sectera.
+
+thus, to help you keep your morale high to encourage you into writing more
+scripts. I thought to bring something to help you with your attitude towards
+programming. 
+
+3) In this video, I had come with a few topics which will help you write
+better and user-friendly code. these are the things we'll discuss with our
+session. 
+A) Focusing on Corner cases.
+B) How to reduce the number of lines of code?
+=======
+1) Introducion:
+hello all , welcome to this session which is about  how to code smartly.
+in this video we'll wor on how to improve your skills to write a better code
+with day to day practice.
+this video is intended for the audience who has just begins their journey in
+programming.
+
+2) what we'll learn and why ? 
+
+As a newbee, you must be facing some performance sickness.
+with so many other doubts like:
+whether you are writing a good program or not ?
+is your code proper
+am i using too many lines of code ? ec sectera.
+
+thus, to help you keep your morale high to encourage you into writing more
+scripts. i thouoght to bring something to help you with your attitude towards
+programming. 
+
+3) In this video, i had come with few topics which will help you writing a
+better anf user friendfly code. these are the things we'll discuss with our
+session. 
+A) Focusing on Corner cases.
+B) How to reduce Number of lines of code?
+>>>>>>> 1268a8cfed980e82edf282889b331911bd8f119f
+C) list comprehensions 
+D) single line assignments 
+E) methods
+F) Creating def for your codes. 
+
+
+4) Prerequisites 
+
+<<<<<<< HEAD
+You just have to be a daily practitioner and learner. 
+D) what software you'll require?
+=======
+You just have to be a daily practicener and learner. 
+D) what software you'll required?
+>>>>>>> 1268a8cfed980e82edf282889b331911bd8f119f
+ Bash/Powershell (windows/linux)
+ vim editor (recommended) 
+ python 3.x>5
+ thats it, ready to go. 
+ 
